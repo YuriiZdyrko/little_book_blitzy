@@ -4,7 +4,7 @@ use Mix.Project
 def project do
   [app: :blitzy,
   version: "0.0.1",
-  elixir: "~> 1.1-rc1",
+  elixir: "~> 1.3.0",
   deps: deps]
 end
 def application do
