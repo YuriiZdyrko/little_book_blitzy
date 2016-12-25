@@ -2,7 +2,6 @@ defmodule Blitzy do
   use Application
 
   def start(_type, _args) do
-    IO.puts("Runnint on node #{node}")
     Blitzy.Supervisor.start_link(:ok)
   end
 

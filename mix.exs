@@ -3,6 +3,7 @@ defmodule Blitzy.Mixfile do
 use Mix.Project
 def project do
   [app: :blitzy,
+  escript: [main_module: Blitzy.CLI],
   version: "0.0.1",
   elixir: "~> 1.3.0",
   deps: deps]
